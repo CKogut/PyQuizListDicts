@@ -2,13 +2,16 @@ def create_dict_from_lists(keys, values):
     """
     This function returns a dict made from two lists.
     """
-    pass  # implement me
+    dict1 = {x: y for x, y in zip(keys, values)}
+    return dict1
+
 
 def merge_two_dicts(d1, d2):
     """
     Merge two Python dictionaries into one
     """
     pass  # implement me
+
 
 def init_dict_with_values(lst, d1):
     """
@@ -17,6 +20,7 @@ def init_dict_with_values(lst, d1):
     """
     #
     pass  # implement me
+
 
 def extract_keys_to_dict(datadict, keylist):
     """
